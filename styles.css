@@ -42,6 +42,10 @@ section#first {
         justify-content: space-between;
         align-items: center;
 
+        > div {
+            text-align: right;
+        }
+
         & h1 {
             font-size: medium;
             white-space: nowrap;
@@ -136,4 +140,20 @@ section#second {
     
     }
 
+}
+
+section#third {
+    background-color: #e5e7eb;
+    padding: 4em 10em;
+
+    & p {
+        font-size: 36px;
+        font-weight: lighter;
+        font-style: italic;
+        color: #1f2937;
+    }
+
+    & h3 {
+        text-align: right;
+    }
 }
