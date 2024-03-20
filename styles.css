@@ -107,7 +107,7 @@ section#second {
         font-weight: bolder;
         color: #1f2937;
         text-align: center;
-        padding: 1em;
+        padding: 1em 0;
     }
 
     .cards {
@@ -194,4 +194,11 @@ section#fourth {
         max-width: 1300px;
     }
 
+}
+
+section#fifth {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 2em;
 }
